@@ -28,11 +28,23 @@ img {
   height: auto;
 }
 
+h3 {
+  color: #394B63;
+  font: 28px/36px "Rokkitt", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 .logo {
   width: 170px;
-  position: absolute;
-  left: 0;
-  top: 3px;
+  display: block;
+  position: relative;
+  float: left;
+  left: 15px;
+  top: 7px;
 }
 
 .part1 {
@@ -74,4 +86,39 @@ img {
   top: 0;
   margin: 4% 0px 0px -12.5%;
   z-index: 30;
+}
+
+.top_bar {
+  background: #2C4947;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  height: 60px;
+  width: 100%;
+  margin: 0;
+}
+
+.menu {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.location {
+  text-align: center;
+  color: #314A5E;
+  font-size: 22px;
+  margin-bottom: 0;
+  position: relative;
+  top: 73%;
+  z-index: 99;
+}
+
+.date {
+  position: relative;
+  display: inline-block;
+  left: 42.5%;
+  width: 150px;
+  z-index: 99;
 }
