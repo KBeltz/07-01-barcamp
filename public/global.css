@@ -28,16 +28,20 @@ img {
   height: auto;
 }
 
+.logo {
+  width: 170px;
+}
+
 .part1 {
   float: left;
   position: relative;
   width: 900px;
+  height: 495px;
   margin: 50px 0 0 -450px;
   left: 50%;
 }
 
 .mountains {
-  background: url("../assets/mountains.jpg") repeat-x center center / cover;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -49,6 +53,14 @@ img {
   position: absolute;
   top: 25px;
   left: 0;
+  z-index: 10;
+}
+
+.trees {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
 }
 
 .hero_logo {
@@ -57,10 +69,5 @@ img {
   position: absolute;
   top: 0;
   margin: 4% 0px 0px -12.5%;
-}
-
-.trees {
-  position: absolute;
-  top: 0;
-  left: 0;
+  z-index: 30;
 }
