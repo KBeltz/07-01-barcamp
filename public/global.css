@@ -118,7 +118,8 @@ p {
 .date {
   position: relative;
   display: inline-block;
-  left: 42.5%;
+  left: 41.5%;
+  top: 360px;
   width: 150px;
   z-index: 99;
 }
