@@ -207,5 +207,15 @@ sup {
   float: left;
   position: relative;
   left: 5%;
-  top: 50px;
+  bottom: 45px;
+}
+
+.dash {
+  background: linear-gradient(to right, #DBD2CB 50%, rgba(255, 255, 255, 0) 0%) repeat-x center bottom / 31px 3px;
+  height: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: left;
+  position: relative;
+  width: 100%;
 }
