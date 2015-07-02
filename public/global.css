@@ -123,7 +123,7 @@ p {
 .date {
   position: relative;
   display: inline-block;
-  left: 41.5%;
+  left: 33.5%;
   width: 150px;
   z-index: 99;
 }
@@ -139,7 +139,7 @@ p {
 
 .aiga {
   position: relative;
-  left: 33%;
+  left: 15%;
   top: 5px;
   max-width: 292px;
 }
