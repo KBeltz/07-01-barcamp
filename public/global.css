@@ -146,8 +146,7 @@ p {
 }
 
 .register_bird {
-  margin-bottom: 50px;
-  display: inline;
+  background: url("../assets/buttonlines.png") no-repeat center center;
 }
 
 .bird {
@@ -155,14 +154,23 @@ p {
   display: inline-block;
   position: absolute;
   left: 45%;
-  top: 695px;
   z-index: 50;
 }
 
-.button_lines {
-  position: absolute;
-  left: 2%;
-  top: 700px;
+.button {
+  text-align: center;
+  border-radius: 50px;
+  background: #6ba236;
+  position: relative;
+  display: inline-block;
+  padding: 17px 38px 15px;
+  color: #fff;
+  font: 700 18px "proxima-nova", Arial, sans-serif;
+}
+
+.price {
+  text-align: center;
+  color: #6ba236;
 }
 
 .expert {
