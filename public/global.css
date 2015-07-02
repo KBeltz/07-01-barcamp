@@ -334,3 +334,11 @@ hr {
 .schedule_item {
   color: #fff;
 }
+
+.part4 {
+  background: #CAECF8 url("../assets/tower.png") no-repeat center center;
+  float: left;
+  position: relative;
+  width: 100%;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+}
