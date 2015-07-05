@@ -258,6 +258,9 @@ hr {
   position: relative;
   left: 95px;
   width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 
 .category_title {
