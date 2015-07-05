@@ -366,6 +366,11 @@ hr {
   float: left;
 }
 
+.plus {
+  float: left;
+  clear: both;
+}
+
 .part5 {
   background: url("../assets/footer.png") no-repeat center center;
   float: left;
