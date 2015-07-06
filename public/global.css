@@ -402,5 +402,28 @@ hr {
   float: left;
   position: relative;
   width: 100%;
+  min-height: 700px;
   font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+}
+
+.sponsors {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  position: relative;
+  width: 92%;
+}
+
+.hill_back {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+}
+
+.hill_front {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
 }
