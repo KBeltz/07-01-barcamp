@@ -381,6 +381,8 @@ hr {
 
 .faq {
   float: left;
+  width: 200px;
+  margin: 10px auto;
 }
 
 .faq_list {
@@ -408,17 +410,15 @@ hr {
 
 .sponsors {
   margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
   position: relative;
+  left: 3%;
   width: 92%;
 }
 
 .hill_back {
   position: absolute;
   bottom: 0;
+  left: 0;
   display: inline-block;
 }
 
@@ -426,4 +426,5 @@ hr {
   position: absolute;
   bottom: 0;
   z-index: 2;
+  left: 0;
 }
