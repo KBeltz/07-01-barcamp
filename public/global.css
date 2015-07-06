@@ -394,9 +394,20 @@ hr {
   min-height: 700px;
 }
 
+.q {
+  color: #754C30;
+  font: 24px "Rokkitt", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 200%;
+  text-align: left;
+}
+
 .plus {
+  margin-right: 10px;
+  width: 20px;
   float: left;
   clear: both;
+
 }
 
 .part5 {
